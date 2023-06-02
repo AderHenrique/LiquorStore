@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liquor Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./lib/bootstrap.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar navbar-expand-lg">
+        <div class="container">
+          <h1>Liquor Store</h1>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="
+            #menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav class="collapse navbar-collapse justify-content-end" id="menu">
+            <ul class="nav navbar-nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Promoções</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trabalhe conosco</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div
+        id="carouselButton"
+        class="carousel carousel-fade slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div data-bs-interval="5000" class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="./imagens/loja1.jpg"
+              alt="foto da loja"
+            />
+          </div>
+          <div data-bs-interval="5000" class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./imagens/loja2.webp"
+              alt="foto da loja"
+            />
+          </div>
+          <div data-bs-interval="5000" class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./imagens/loja3.jpg"
+              alt="foto da loja"
+            />
+          </div>
+          <div data-bs-interval="5000" class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./imagens/loja4.jpg"
+              alt="foto da loja"
+            />
+          </div>
+        </div>
+        <button
+          data-bs-target="#carouselButton"
+          data-bs-slide="prev"
+          class="carousel-control-prev"
+          type="button"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          data-bs-target="#carouselButton"
+          data-bs-slide="next"
+          class="carousel-control-next"
+          type="button"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel-exemplo"
+            class="active"
+            data-bs-slide-to="0"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-exemplo"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-exemplo"
+            data-bs-slide-to="2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-exemplo"
+            data-bs-slide-to="3"
+          ></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-header">Absolut Vodka Original Sueca 1L</div>
+            <img
+              class="imgProdutos"
+              src="./imagens/absolut.webp"
+              alt="Vodka absolut"
+            />
+            <p class="card-text">
+              A Absolut Vodka é uma vodka sueca feita exclusivamente a partir de
+              ingredientes naturais encontrados exclusivamente em Ahus na
+              Suécia, e, ao contrario de algumas outras vodkas, ela não contem
+              açúcar. A ausência de açúcar e um dos pontos que mais diferencia a
+              Vodka Absolut das demais, oferecendo sabor puro e único. de fato,
+              a Absolut e tão limpa quanto uma vodka pode ser, sendo perfeita
+              para união de sabores com diversas misturas.
+            </p>
+            <h4>Valor: R$ 97,00</h4>
+            <button class="btn btn-success">Comprar</button>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-header">Macallan Double Cask 12 anos</div>
+            <img
+              class="imgProdutos"
+              src="./imagens/macallan.webp"
+              alt="Macallan"
+            />
+            <p class="card-text">
+              Macallan é considerado o verdadeiro “Rolls-Royce” dos whiskies, o
+              Macallan é um dos mais premiados single maltes do mundo. O
+              prestigiado whisky Macallan, com quase 200 anos de tradição, é um
+              dos néctares mais desejados pelos apreciadores do malte sagrado.
+              Exigentes e sofisticados os admiradores da marca, adquirem edições
+              comemorativas em reconhecidos leilões, chegando a gastar milhares
+              de euros numa única garrafa.
+            </p>
+            <h4>Valor: R$ 599,00</h4>
+            <button class="btn btn-success">Comprar</button>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              Cachaça Sagatiba Preciosa Edição Limitada
+            </div>
+            <img
+              class="imgProdutos"
+              src="./imagens/cachaca.jpeg"
+              alt="cachaça sagatiba"
+            />
+            <p class="card-text">
+              Sagatiba Preciosa é uma edição limitada de uma cachaça destilada
+              em 1982 e envelhecida por 23 anos em barricas de carvalho francês,
+              do século XIX, importadas da França. O destilado foi filtrado e
+              purificado para preservar e destacar as características originais,
+              como o aroma e o sabor, assim, o resultado é uma cachaça
+              superpremium de cor levemente dourada, com 42% de graduação
+              alcoólica. A garrafa desta Cachaça foi desenvolvida,
+              exclusivamente, pela Saverglass de Paris.
+            </p>
+            <h4>Valor: R$ 1.599,00</h4>
+            <button class="btn btn-success">Comprar</button>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-header">Gin Tanqueray Royale 700ml</div>
+            <img
+              class="imgProdutos"
+              src="./imagens/tanqueray.webp"
+              alt="Gin tanqueray"
+            />
+            <p class="card-text">
+              O Tanqueray Dark Berry Royale é um gin frutado e saboroso da
+              Tanqueray, uma das mais famosas e importantes destilarias de gin
+              do planeta, e é construído em torno do brilho da groselha preta.
+              Inspirado nas viagens de Charles Tanqueray à França, esta
+              expressão apresenta quatro dos clássicos botânicos da Tanqueray,
+              ao lado de groselhas negras francesas, baunilha e orquídea negra.
+              O resultado é repleto de notas de frutas silvestres, embora
+              equilibradas por flutuações florais, riqueza cremosa e especiarias
+              herbáceas.
+            </p>
+            <h4>Valor: R$ 149,00</h4>
+            <button class="btn btn-success">Comprar</button>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-header">Vodka Wyborowa Exquisite 750ml</div>
+            <img src="./imagens/Wyborowa.webp" alt="vodka Wyborowa" />
+            <p class="card-text">
+              A expressão premium da marca polonesa, Wyborowa Exquisite, é
+              produzida com uma única variedade de centeio chamado Dankowskie
+              Zlote, conhecido por sua qualidade superior. Além disso, a vodka
+              estampa em sua garrafa o selo "Single Estate", significando que o
+              centeio é processado, fermentado e destilado em apenas uma
+              destilaria, localizada na cidade de Turew. Porém, após essa
+              primeira destilação, como acontece com a Wyborowa tradicional, a
+              vodka é levada para a planta principal da marca onde é redestilada
+              para maximizar sua pureza.
+            </p>
+            <h4>Valor: R$ 299,00</h4>
+            <button class="btn btn-success">Comprar</button>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-header">Charcutaria com queijo artesanal</div>
+            <img
+              class="imgProdutos"
+              src="./imagens/charcutaria.jpg"
+              alt="charcutaria com queijos"
+            />
+            <p class="card-text">
+              Nossa Tábua Cambuí, com linguiça apimentada, jamón, presunto no
+              whisky, pancetta, salame fuet, queijo bananal, tulha e lua,
+              acompanhados por mel, tomate confit, picles de maxixe e cesto de
+              pães.
+            </p>
+            <h4>Valor: R$ 149,00</h4>
+            <button class="btn btn-success">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toast-container position-fixed top-0">
+      <div class="toast" id="checkIdade">
+        <header class="toast-header">
+          <strong>ATENÇÃO ESSA PAGINA É PARA MAIORES DE IDADE !!!</strong>
+        </header>
+        <div class="toast-body">
+          Você é maior de 18 anos?
+          <div>
+            <button data-bs-dismiss="toast" class="btn-success" type="button">
+              Sou maior
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script src="./lib/jquery-3.7.0.min.js"></script>
+    <script>
+      const mensagem = document.getElementById("checkIdade");
+      const toast = new bootstrap.Toast(mensagem);
+      toast.show();
+      $(document).ready(function () {
+        const toast = new bootstrap.Toast(mensagem);
+        toast.show();
+      });
+    </script>
+  </body>
+</html>

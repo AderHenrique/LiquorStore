@@ -1,0 +1,24 @@
+header {
+  background-color: darkgray;
+}
+.nav-link {
+  text-align: center;
+  cursor: pointer;
+}
+
+.row {
+  text-align: center;
+}
+.col-sm-12 {
+  padding-top: 20px;
+}
+p {
+  padding-top: 10px;
+}
+.d-block {
+  height: 400px;
+}
+.toast-container {
+  background-color: red;
+  text-align: center;
+}
